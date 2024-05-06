@@ -61,7 +61,7 @@ footer {
 }
 
 .left-footer {
-    width: 50%;
+    width: 90%;
 }
 
 .left-footer ul {
@@ -70,4 +70,14 @@ footer {
     width: 100%;
     display: flex;
     gap: 10px;
+}
+
+.right-footer {
+    width: 10%;
+}
+
+.social {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
