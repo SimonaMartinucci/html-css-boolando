@@ -69,6 +69,7 @@ header {
 
 .item {
     width: 32%;
+    margin-bottom: 30px;
     position: relative;
 }
 
@@ -117,6 +118,7 @@ header {
 .discount {
     background-color: red;
     padding: 5px 8px;
+    margin-right: 5px;
 }
 
 .sustainability {
