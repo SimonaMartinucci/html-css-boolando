@@ -20,6 +20,12 @@ header {
     height: 80px;
     font-size: 15px;
     font-weight: 500;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    box-shadow: 0 2px 5px grey;
 }
 
 .container {
@@ -56,12 +62,13 @@ header {
 }
 
 /* regole main */
-/* main {
-    background-color: white;
-} */
+
+main {
+    padding-top: 100px;
+}
 
 .products {
-    margin: 40px auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
